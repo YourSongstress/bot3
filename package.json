@@ -1,17 +1,25 @@
-
 {
-  "name": "bbot",
+  "name": "binary",
   "version": "1.0.0",
-  "description": "",
-  "main": "bot.js",
+  "description": "Supamu.",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "opencollective-postinstall"
   },
-  "author": "",
+  "author": "Lawd",
   "license": "ISC",
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.14.5"
+  },
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "animequotes": "^1.1.2",
+    "discord.js": "^11.1.0",
     "fs": "0.0.1-security",
-    "moment": "^2.21.0"
+    "opencollective-postinstall": "2.0.3"
+  },
+  "collective": {
+    "url": "https://opencollective.com/webpack"
   }
 }
